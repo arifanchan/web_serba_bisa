@@ -25,7 +25,7 @@
                     <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
                         <strong>
                             <!-- fungsi JS onclick go to top untuk ke halaman atas  -->
-                            <a href="index.html" class="logo" onclick="goToTop()">Serba Bisa</a>
+                            <a href="index.php" class="logo" onclick="goToTop()">Serba Bisa</a>
                         </strong>
                     </div>
                     <div class="menu-wrapper">
@@ -37,7 +37,7 @@
                         <menu id="nav-menu">
                             <ul>
                                 <li>
-                                    <a href="index.html" onclick="goToTop()">Home</a>
+                                    <a href="index.php" onclick="goToTop()">Home</a>
                                 </li>
                                 <li class="active">
                                     <a href="profile.php">Profile</a>
@@ -49,14 +49,19 @@
                                     <a href="sarana.php">Sarana Prasarana</a>
                                 </li>
                                 <li>
+                                    <!-- <button onclick="darkMode()"> -->
                                     <label class="switch">
                                         <input type="checkbox" onclick="darkMode()">
                                         <span class="slider round"></span>
                                     </label>
+                                    <!-- </button> -->
                                 </li>
                                 <li>
                                     <a href="kontak.php" class="btn btn-primary">Kontak</a>
                                 </li>
+                                <!-- <li>
+                                    <a href="#login">Login</a>
+                                </li> -->
                             </ul>
                         </menu>
                     </div>
@@ -226,7 +231,7 @@
                     <h3>Useful Link</h3>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
-                        <a href="index.html" onclick="goToTop()">Home</a>
+                        <a href="index.php" onclick="goToTop()">Home</a>
                     </li>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
@@ -244,6 +249,10 @@
                         <span class="ri ri-arrow-right-s-line"></span>
                         <a href="kontak.php">Kontak</a>
                     </li>
+                    <!-- <li>
+                        <span class="ri ri-arrow-right-s-line"></span>
+                        <a href="#">Login</a>
+                    </li> -->
                 </menu>
             </div>
             <div class="copyright">

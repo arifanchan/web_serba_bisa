@@ -48,7 +48,7 @@ $berita = [
                     <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
                         <strong>
                             <!-- fungsi JS onclick go to top untuk ke halaman atas  -->
-                            <a href="../index.html" class="logo" onclick="goToTop()">Serba Bisa</a>
+                            <a href="../index.php" class="logo" onclick="goToTop()">Serba Bisa</a>
                         </strong>
                     </div>
                     <div class="menu-wrapper">
@@ -60,7 +60,7 @@ $berita = [
                         <menu id="nav-menu">
                             <ul>
                                 <li class="active">
-                                    <a href="../index.html" onclick="goToTop()">Home</a>
+                                    <a href="../index.php" onclick="goToTop()">Home</a>
                                 </li>
                                 <li>
                                     <a href="../profile.php">Profile</a>
@@ -82,6 +82,9 @@ $berita = [
                                 <li>
                                     <a href="../kontak.php" class="btn btn-primary">Kontak</a>
                                 </li>
+                                <!-- <li>
+                                    <a href="#login">Login</a>
+                                </li> -->
                             </ul>
                         </menu>
                     </div>
@@ -106,6 +109,11 @@ $berita = [
                 <div class="share">
                     <h3>Bagikan : </h3>
                     <div class="icon-share">
+                        <!-- <input type="text" id="text-1" class="" value="http://localhost/web_sekolah/detail-berita/detail_berita1firman.php" />
+                        <br>
+                        <a href="" onclick="copy('text-1')">
+                            <i class="ri-link icon-link"></i>
+                        </a> -->
                         <a href="http://www.facebook.com/sharer.php?u=https://rafstudio.netlify.app/" target="_blank">
                             <i class="ri-facebook-circle-fill icon-fb"></i>
                         </a>
@@ -173,7 +181,7 @@ $berita = [
                     <h3>Useful Link</h3>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
-                        <a href="index.html" onclick="goToTop()">Home</a>
+                        <a href="index.php" onclick="goToTop()">Home</a>
                     </li>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
@@ -191,6 +199,10 @@ $berita = [
                         <span class="ri ri-arrow-right-s-line"></span>
                         <a href="kontak.php">Kontak</a>
                     </li>
+                    <!-- <li>
+                        <span class="ri ri-arrow-right-s-line"></span>
+                        <a href="#">Login</a>
+                    </li> -->
                 </menu>
             </div>
             <div class="copyright">
@@ -204,6 +216,11 @@ $berita = [
     <!-- link javascript -->
     <script src="../assets/js/script.js"></script>
 
+    <script>
+        function copyLink() {
+            navigator.clipboard.writeText("http://localhost/web_sekolah/detail-berita/detail_berita1.php");
+        }
+    </script>
 </body>
 
 </html>

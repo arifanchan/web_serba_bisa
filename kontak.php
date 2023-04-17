@@ -26,7 +26,7 @@
                     <div class="brand-wrapper px-4 sm:px-6 lg:px-0">
                         <strong>
                             <!-- fungsi JS onclick go to top untuk ke halaman atas  -->
-                            <a href="index.html" class="logo" onclick="goToTop()">Serba Bisa</a>
+                            <a href="index.php" class="logo" onclick="goToTop()">Serba Bisa</a>
                         </strong>
                     </div>
                     <div class="menu-wrapper">
@@ -38,7 +38,7 @@
                         <menu id="nav-menu">
                             <ul>
                                 <li>
-                                    <a href="index.html" onclick="goToTop()">Home</a>
+                                    <a href="index.php" onclick="goToTop()">Home</a>
                                 </li>
                                 <li>
                                     <a href="profile.php">Profile</a>
@@ -50,14 +50,19 @@
                                     <a href="sarana.php">Sarana Prasarana</a>
                                 </li>
                                 <li>
+                                    <!-- <button onclick="darkMode()"> -->
                                     <label class="switch">
                                         <input type="checkbox" onclick="darkMode()">
                                         <span class="slider round"></span>
                                     </label>
+                                    <!-- </button> -->
                                 </li>
                                 <li>
                                     <a href="kontak.php" class="btn btn-primary">Kontak</a>
                                 </li>
+                                <!-- <li>
+                                    <a href="#login">Login</a>
+                                </li> -->
                             </ul>
                         </menu>
                     </div>
@@ -71,7 +76,13 @@
                 <div class="box__contact">
                     <div class="left__contact">
                         <h1 class="section__title">Kontak Kami</h1>
+                        <div class="alert my-alert d-none">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span><strong>Terima
+                                Kasih,</strong> Pesan anda sudah kami terima.
+                        </div>
+                        <!-- <p class="subtitle__contact">Cukup isi formulir ini dan kami akan segera menghubungi Anda untuk mendiskusikan proyek Anda. <br> Hubungi kami di <a href="mailto::raf.studio@gmailcom" class="email">raf.studio@gmail.com</a></p> -->
                         <br>
+                        <!-- <div class="card-body"> -->
                         <form name="raf-contact-form" method="POST" action="tampil_kontak.php">
                             <div class="row__name">
                                 <div class="form__group">
@@ -101,7 +112,12 @@
                             <textarea name="pesan" class="form-input" id=""></textarea>
 
                             <button type="submit" name="kirim" class="btn-gradient btn-contact btn-kirim btn btn-primary">Kirim</button>
+
+                            <button type="button" class="btn-loading btn-load d-none">
+                                <i class="bx bx-loader-alt bx-spin bx-xs"></i> Loading
+                            </button>
                         </form>
+                        <!-- </div> -->
                     </div>
                     <div class="right__contact">
                         <div class="img__contact">
@@ -161,7 +177,7 @@
                     <h3>Useful Link</h3>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
-                        <a href="index.html" onclick="goToTop()">Home</a>
+                        <a href="index.php" onclick="goToTop()">Home</a>
                     </li>
                     <li>
                         <span class="ri ri-arrow-right-s-line"></span>
@@ -179,6 +195,10 @@
                         <span class="ri ri-arrow-right-s-line"></span>
                         <a href="kontak.php">Kontak</a>
                     </li>
+                    <!-- <li>
+                        <span class="ri ri-arrow-right-s-line"></span>
+                        <a href="#">Login</a>
+                    </li> -->
                 </menu>
             </div>
             <div class="copyright">
