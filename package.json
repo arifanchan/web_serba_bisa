@@ -1,18 +1,22 @@
 {
-    "name": "web_serba_bisa",
-    "version": "1.0.0",
-    "description": "",
-    "scripts": {
-        "start": "node index.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/arifanchan/web_serba_bisa.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/arifanchan/web_serba_bisa/issues"
-    },
-    "homepage": "https://github.com/arifanchan/web_serba_bisa#readme"
+  "name": "web_serba_bisa",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifanchan/web_serba_bisa.git"
+  },
+  "author": "Arifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arifanchan/web_serba_bisa/issues"
+  },
+  "homepage": "https://github.com/arifanchan/web_serba_bisa#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "description": ""
 }
